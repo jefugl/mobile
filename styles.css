@@ -32,7 +32,9 @@ p {
   background-color: #A2B5BB;
   
   .top-cloud {
-  margin: 2vw 0 0 35vw;
+    position: relative;
+    right: -20rem;
+    top: 3rem;
   }
 
 /* Use a media query to add a breakpoint at 620px: */
