@@ -27,10 +27,13 @@ p {
   line-height: 2
 }
 
-
 .top-container {
   margin: 0 auto;
   background-color: #A2B5BB;
+  
+  .top-cloud {
+  margin: 2vw 0 0 35vw;
+  }
 
 /* Use a media query to add a breakpoint at 620px: */
 /*@media screen and (max-width: 620px) {
