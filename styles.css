@@ -18,7 +18,7 @@ p {
 }
 
 img {
-  max-widht: 50%;height:auto;
+  max-width: 100%;height:auto;
 }
 /* Use a media query to add a breakpoint at 620px: */
 @media screen and (max-width: 620px) {
