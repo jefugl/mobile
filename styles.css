@@ -5,21 +5,28 @@ body {
   padding: 0 100px
 }
 
+img {
+  max-width: 100%;height:auto;
+}
+
+
 h1 {
+  font-family: "Sacramento", cursive;
   font-size: 5vw;
 }
 
 h2 {
+  font-family: "Montserrat", cursive;
   font-size: 2.5vw;
+  color: #66BFBF;
 }
 
 p {
+  font-family: "Merriweather", cursive;
   font-size: 1.5vw;
+  line-height: 2
 }
 
-img {
-  max-width: 100%;height:auto;
-}
 
 .top-container {
   margin: 0 auto;
