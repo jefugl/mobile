@@ -31,16 +31,9 @@ p {
   margin: 0 auto;
   background-color: #A2B5BB;
   
-  .top-cloud {
-    max-width: 50%;height: auto;
-    position: relative;
-    right: -20rem;
-    top: 3rem;
-  }
-
 /* Use a media query to add a breakpoint at 620px: */
 /*@media screen and (max-width: 620px) {
-  .top-container {
+  .top-container, .top-coud {
     width: 100%; /* The width is 100%, when the viewport is 800px or smaller 
   }
 }*/
