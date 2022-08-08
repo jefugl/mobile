@@ -5,6 +5,10 @@ body {
   padding: 0 100px
 }
 
+h1 {
+  font-size: 5vw;
+}
+
 img {
   max-widht: 100%;height:auto;
 }
