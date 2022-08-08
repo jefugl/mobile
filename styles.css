@@ -1,0 +1,203 @@
+body {
+  margin: 0;
+  background-color: #EAF6F6;
+  text-align: center;
+  padding: 0 100px
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+}
+
+h2 {
+  font-family: "Montserrat", cursive;
+  color: #66BFBF;
+}
+
+h3 {
+  font-family: "Montserrat", cursive;
+  color: #11999E;
+}
+
+p {
+  font-family: "Merriweather", cursive;
+  line-height: 2
+}
+
+hr {
+  border: dotted #CFD2CF 8px;
+  border-bottom: none;
+  width: 6%;
+  margin: 50px auto 50px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6
+}
+
+.mobil {
+  font-size: 2rem;
+}
+
+.top-container {
+  margin: 0 auto;
+  background-color: #A2B5BB;
+  position: relative;
+  padding: 0 20rem;
+  max-width: 60rem;
+}
+
+.intro-container {
+  background-color: #F7F5F2;
+  margin: 0 auto;
+  position: relative;
+  padding: 1rem 20rem;
+  max-width: 60rem;
+}
+
+.experience-container {
+  background-color: #F2F2F2;
+  margin: 0 auto;
+  padding: 1rem 20rem;
+  max-width: 60rem;
+}
+
+.contact-me {
+  margin: 0 auto;
+  padding: 1rem 20rem;
+  max-width: 60rem;
+}
+
+.bottom-container {
+  margin: 0 auto;
+  background-color: #66BFBF;
+  padding: 0 20rem;
+  max-width: 60rem;
+}
+
+.my-picture {
+  float: left;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+.work-picture {
+  float: right;
+  margin: 0 auto;
+  padding: 1rem 1rem;
+}
+
+.intro-h2 {
+  width: 70%;
+}
+
+.intro {
+  width: 80%;
+  text-align: left;
+  padding: 0 10rem 0 20rem;
+  max-width: 80rem;
+}
+
+.skills-h2 {
+  width: 70%;
+}
+
+.skills {
+  width: 80%;
+  text-align: left;
+  padding: 0 20rem 0 5rem;
+  max-width: 80rem;
+}
+
+.copyright {
+  width: 40%;
+  margin: 20px auto 0;
+}
+
+.top-cloud {
+  position: relative;
+  right: -20rem;
+  top: 3rem;
+}
+
+.bottom-cloud {
+  position: relative;
+  left: -30rem;
+  top: 30rem;
+}
+
+.top-btn {
+  background: #CFD2CF;
+  background-image: -webkit-linear-gradient(top, #CFD2CF, #FCE2DB);
+  background-image: -moz-linear-gradient(top, #CFD2CF, #FCE2DB);
+  background-image: -ms-linear-gradient(top, #CFD2CF, #FCE2DB);
+  background-image: -o-linear-gradient(top, #CFD2CF, #FCE2DB);
+  background-image: linear-gradient(to bottom, #CFD2CF, #FCE2DB);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #1C3879;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  position: relative;
+  left: -30rem;
+  top: 1rem;
+}
+
+.top-btn:hover {
+  background: #607EAA;
+  background-image: -webkit-linear-gradient(top, #607EAA, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #607EAA, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #607EAA, #2bc4ad);
+  background-image: -o-linear-gradient(top, #607EAA, #2bc4ad);
+  background-image: linear-gradient(to bottom, #607EAA, #2bc4ad);
+  text-decoration: none;
+}
+
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .top-container, .intro-container, .experience-container, .bottom-container, .skills {
+    width: 100%;
+}
