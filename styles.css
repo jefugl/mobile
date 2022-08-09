@@ -9,7 +9,6 @@ img {
   max-width: 100%;height:auto;
 }
 
-
 h1 {
   font-family: "Sacramento", cursive;
   font-size: 5vw;
@@ -32,11 +31,13 @@ hr {
   border-bottom: none;
   width: 6%;
   margin: 2.5vw auto 2.5vw auto;
+}
 
 .top-container {
-  margin: 0 auto;
   background-color: #A2B5BB;
+  margin: 0 auto;
   padding: 1vw;
+}
 
 .intro-container {
   background-color: #F7F5F2;
@@ -47,6 +48,6 @@ hr {
 /* Use a media query to add a breakpoint at 620px: */
 /*@media screen and (max-width: 620px) {
   .top-container, .intro-container {
-    width: 100%; /* The width is 100%, when the viewport is 620px or smaller 
+    width: 100%; /* The width is 100%, when the viewport is 620px or smaller*/ 
   }
 }*/
