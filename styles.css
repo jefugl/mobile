@@ -45,10 +45,21 @@ hr {
   padding: 1vw;
 }
 
+.intro-h2 {
+  width: 70%;
+}
+
+.intro {
+  width: 70%;
+  text-align: left;
+  padding: 0 10vw 0 12vw;
+  max-width: 80rem;
+}
+
 .my-picture {
   float: left;
   margin: 0 auto;
-  padding: 1rem 1rem;
+  padding: 4vw 2vw;
 }
 
 /* Use a media query to add a breakpoint at 800px: */
