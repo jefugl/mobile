@@ -27,6 +27,12 @@ p {
   line-height: 2
 }
 
+.intro-container {
+  background-color: #F7F5F2;
+  margin: 0 auto;
+  padding: 1vw;
+}
+
 .top-container {
   margin: 0 auto;
   background-color: #A2B5BB;
