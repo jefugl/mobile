@@ -23,9 +23,15 @@ h2 {
 
 p {
   font-family: "Merriweather", cursive;
-  font-size: 1.5vw;
+  font-size: 1vw;
   line-height: 2
 }
+
+hr {
+  border: dotted #CFD2CF 0.7vw;
+  border-bottom: none;
+  width: 6%;
+  margin: 2.5vw auto 2.5vw auto;
 
 .intro-container {
   background-color: #F7F5F2;
@@ -39,7 +45,7 @@ p {
   
 /* Use a media query to add a breakpoint at 620px: */
 /*@media screen and (max-width: 620px) {
-  .top-container, .top-coud {
-    width: 100%; /* The width is 100%, when the viewport is 800px or smaller 
+  .top-container, .intro-container {
+    width: 100%; /* The width is 100%, when the viewport is 620px or smaller 
   }
 }*/
