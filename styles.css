@@ -33,6 +33,10 @@ hr {
   margin: 2.5vw auto 2.5vw 40vw;
 }
 
+embeded {
+  max-width: 100%;
+}
+
 .top-container {
   background-color: #A2B5BB;
   margin: 0 auto;
