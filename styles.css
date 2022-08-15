@@ -135,6 +135,6 @@ embed {
 @media screen and (max-width: 10vw) {
   h1, h2, p {
     width: 100%; 
-    font-size: 10vw
+    font-size: 10vw;
   }
 }
