@@ -98,3 +98,9 @@ embed {
     width: 100%; /* The width is 100%, when the viewport is 768px or smaller*/ 
   }
 }
+
+@media screen and (max-width: 768px) {
+  h1, h2, p {
+    width: 100%; /* The width is 100%, when the viewport is 640px or smaller
+  }
+}
