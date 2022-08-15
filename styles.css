@@ -125,16 +125,3 @@ embed {
 
 
 
-/* Use a media query to add a breakpoint at 768px: */
-@media screen and (max-width: 10vw) {
-  body, .top-container, .intro-container, .experience-container {
-    width: 100%; /* The width is 100%, when the viewport is 768px or smaller*/ 
-  }
-}
-
-@media screen and (max-width: 10vw) {
-  h1, h2, p {
-    width: 100%; 
-    font-size: 10vw;
-  }
-}
