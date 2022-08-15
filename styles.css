@@ -101,6 +101,7 @@ embed {
 
 @media screen and (max-width: 10vw) {
   h1, h2, p {
-    width: 100%; /* The width is 100%, when the viewport is 640px or smaller
+    width: 100%; 
+    font-size: 10vw
   }
 }
