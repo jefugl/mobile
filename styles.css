@@ -92,6 +92,11 @@ embed {
   padding: 1vw;
 }
 
+.contact-me {
+  margin: 0 auto;
+}
+
+
 /* Use a media query to add a breakpoint at 768px: */
 @media screen and (max-width: 10vw) {
   body, .top-container, .intro-container, .experience-container {
