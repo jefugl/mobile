@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: #EAF6F6;
   text-align: center;
-  padding: 0 100px
+  padding: 0 13vw;
 }
 
 img {
@@ -92,9 +92,9 @@ embed {
   padding: 1vw;
 }
 
-/* Use a media query to add a breakpoint at 640px: */
-@media screen and (max-width: 640px) {
+/* Use a media query to add a breakpoint at 768px: */
+@media screen and (max-width: 768px) {
   body {
-    width: 50%; /* The width is 50%, when the viewport is 640px or smaller*/ 
+    width: 100%; /* The width is 100%, when the viewport is 768px or smaller*/ 
   }
 }
