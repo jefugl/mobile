@@ -94,7 +94,7 @@ embed {
 
 /* Use a media query to add a breakpoint at 768px: */
 @media screen and (max-width: 768px) {
-  body {
+  body, .top-container, .intro-container, .experience-container {
     width: 100%; /* The width is 100%, when the viewport is 768px or smaller*/ 
   }
 }
