@@ -95,6 +95,6 @@ embed {
 /* Use a media query to add a breakpoint at 640px: */
 @media screen and (max-width: 640px) {
   body {
-    width: 100%; /* The width is 100%, when the viewport is 640px or smaller*/ 
+    width: 50%; /* The width is 50%, when the viewport is 640px or smaller*/ 
   }
 }
