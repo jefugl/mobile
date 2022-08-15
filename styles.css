@@ -92,9 +92,9 @@ embed {
   padding: 1vw;
 }
 
-/* Use a media query to add a breakpoint at 1080px: */
-/*@media screen and (max-width: 1080px) {
-  .top-container, .intro-container {
-    width: 100%; /* The width is 100%, when the viewport is 1080px or smaller*/ 
+/* Use a media query to add a breakpoint at 640px: */
+@media screen and (max-width: 640px) {
+  body {
+    width: 100%; /* The width is 100%, when the viewport is 640px or smaller*/ 
   }
-}*/
+}
