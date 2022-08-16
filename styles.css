@@ -132,16 +132,16 @@ embed {
   text-decoration: none;
 }
 
-/*If screen size is more than 600px wide, set the front-size of <p> to 80px*/
+/*If screen size is more than 600px wide, set the front-size of <p> to 20px*/
 @media screen and (min-width: 600px) {
-  p {
+  p, .work-experience {
     font-size: 20px;
   }
 }
 
-/*If screen size is 600px wide, or less, set the front-size of <p> to 30px<*/
+/*If screen size is 600px wide, or less, set the front-size of <p> to 10px<*/
 @media screen and (max-width: 600px) {
-  p {
+  p, .work-experience {
     font-size: 10px;
   }
 }
