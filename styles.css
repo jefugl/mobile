@@ -169,14 +169,14 @@ hr {
 
 /*If screen size is more than 600px wide, set the front-size of <p and .work-experience> to 20px*/
 @media screen and (min-width: 600px) {
-  p, .work-experience {
+  p, .work-experience,.mobil {
     font-size: 20px;
   }
 }
 
 /*If screen size is 600px wide, or less, set the front-size of <and .work-experience> to 10px<*/
 @media screen and (max-width: 600px) {
-  p, .work-experience {
+  p, .work-experience, .mobil {
     font-size: 10px;
   }
 }
