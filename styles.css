@@ -206,15 +206,3 @@ hr {
     font-size: 15px;
   }
 }
-
-@media screen and (min-width: 600px) {
-  h1, h2 {
-    font-size: 5vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  h1, h2 {
-    font-size: 5vw;
-  }
-}
